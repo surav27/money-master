@@ -6,8 +6,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Money Master</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/50d74f3140.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <header class="my-8 w-9/12	mx-auto">
+        <h1 class="text-5xl font-bold text-green-700 text-center ">MONEY MASTER <i class="fa-solid fa-sack-dollar text-yellow-500"></i></h1>
+    </header>
+    <main>
+        <section class="grid grid-cols-2 w-9/12	mx-auto mb-10 ">
+            <div class="mx-10">
+                <img class="mx-5" src="images/money-cal.jpeg" alt="">
+            </div>
+            <div class="mx-10 bg-slate-200 w-9/12	mx-auto">
+                <h4 class="text-2xl text-center pt-10 font-medium">Income</h4>
+                <p class="text-center my-5 font-medium">income:<input class="bg-slate-400 ml-4" type="number" name="" id="income-field"></p>
+                <h4 class="text-2xl text-center pt-1 font-medium">Expenses</h4>
+                <p class="text-center my-5 font-medium">Food:<input class="bg-slate-400 ml-8" type="number" name="" id="food-field"></p>
+                <p class="text-center my-5 font-medium">Rent:<input class="bg-slate-400 ml-8" type="number" name="" id="rent-field"></p>
+                <p class="text-center my-5 font-medium ">Clothes:<input class="bg-slate-400 ml-3" type="number" name="" id="income-field"></p>
+
+                <button id="calculate-btn" class="text-2xl bg-blue-500 w-1/2 mx-20 py-1 rounded-lg text-center">Calculate</button>
+                <h4 class="text-2xl text-center mt-5 font-medium">Total Expenses: 5500</h4>
+                <h4 class="text-2xl text-center pt-2 font-medium">Total Balance: 4500</h4>
+
+                <p class="text-center text-2xl my-5">save: <input class="bg-slate-400 w-10" type="number" name="" id="tax-field"> % <button class="bg-blue-400 px-2 rounded-lg ">save</button></p>
+
+                <h4 class="text-2xl text-center pt-2 font-medium">Saving Amount: 2000</h4>
+                <h4 class="text-2xl text-center pt-2 font-medium">Remaining Balance: 2500</h4>
+            </div>
+            
+
+        </section>
+    </main>
     
 </body>
 </html>
